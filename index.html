@@ -5,15 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js"></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="main-container">
-      <h1>Hi, Welcome</h1>
-
-      <div class="image-container"></div>
+      <div class="image-container" id="image_container">
+        <button id="open">
+          Guess
+        </button>
+      </div>
     </div>
+    <div class="modal-container"
+     id="modal_container">
+      <div class="modal">
+        <div id="map" style="width: 600px; height: 600px;"></div>
+        <button id="close">
+          x
+        </button>
+        <span>Mark your Guess</span>
+        <button class="submit" id="submit">Submit</button>
+      </div>
 
+    </div>
+    <div class="modal-container1"
+     id="modal_container1">
+      <div class="modal1">
+        <span>Result</span>
+        <div id="map1" style="width: 700px; height: 600px;"></div>
+        <div>You are&nbsp;<div id="dist"></div>&nbsp; km far away.</div>
+        <div>Your score is &nbsp;<div id="score"></div>.</div>        
+        <button class="next" id="next">Next</button>
+      </div>
+
+    </div>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/three.js/105/three.min.js"
       integrity="sha512-uWKImujbh9CwNa8Eey5s8vlHDB4o1HhrVszkympkm5ciYTnUEQv3t4QHU02CUqPtdKTg62FsHo12x63q6u0wmg=="
@@ -21,7 +47,7 @@
       referrerpolicy="no-referrer"
     ></script>
     <script src="js/panolens.min.js"></script>
-
+    <script src="data.js"></script>
     <script src="main.js"></script>
   </body>
 </html>
