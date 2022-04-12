@@ -24,7 +24,7 @@ function main(city) {
 
   // --------------------Score Calculation-----------------
   function score(distance) {
-    const scored = (distance / 20000) * 100;
+    var scored = (distance / 3000) * 100;
     return Math.round(scored);
   }
 
@@ -218,6 +218,26 @@ var items = [
   location28,
   location29,
   location30,
+  location31,
+  location32,
+  location33,
+  location34,
+  location35,
+  location36,
+  location37,
+  location38,
+  location39,
+  location40,
+  location41,
+  location42,
+  location43,
+  location44,
+  location45,
+  location46,
+  location47,
+  location48,
+  location49,
+  location50,
 ];
 var locations = items[Math.floor(Math.random() * items.length)];
 main(locations);

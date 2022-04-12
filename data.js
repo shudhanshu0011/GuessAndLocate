@@ -147,7 +147,7 @@ const location17 = new City(
 const location18 = new City(
   "18",
   "Amritsar",
-  "images/amritsar1.jpg",
+  "images/amritsar1.JPG",
   31.63124772825869,
   74.87926659204868
 );
@@ -246,4 +246,164 @@ const location30 = new City(
   "images/darjeeling1.jpg",
   27.0421063,
   88.26755846449971
+);
+
+const location31 = new City(
+  "31",
+  "Statue of Unity",
+  "images/surat1.jpg",
+  21.83838564323967,
+  73.71896683859025
+);
+
+const location32 = new City(
+  "32",
+  "Wagah Border",
+  "images/wagah1.jpg",
+  31.604655747924383,
+  74.57320990795372
+);
+
+const location33 = new City(
+  "33",
+  "Dharamsala",
+  "images/dharamsala1.jpg",
+  32.19792062446565,
+  76.32609512088405
+);
+
+const location34 = new City(
+  "34",
+  "Gangtok",
+  "images/sikkim1.jpg",
+  27.333012085143224,
+  88.60312308517173
+);
+
+const location35 = new City(
+  "35",
+  "Lakshadweep",
+  "images/laksh1.jpg",
+  11.168502726915579,
+  72.83791558246527
+);
+
+const location36 = new City(
+  "36",
+  "Mumbai",
+  "images/mumbai3.jpg",
+  18.917826484354013,
+  72.82981312055594
+);
+
+const location37 = new City(
+  "37",
+  "Kanyakumari",
+  "images/tiru1.jpg",
+  8.078203691616208,
+  77.55553316626784
+);
+
+const location38 = new City(
+  "38",
+  "Mahabalipuram",
+  "images/mahabalipuram1.jpg",
+  12.61608573827831,
+  80.19900863524985
+);
+
+const location39 = new City(
+  "39",
+  "Tirupati",
+  "images/tirupati1.jpg",
+  13.683346621410898,
+  79.34649106982965
+);
+
+const location40 = new City(
+  "40",
+  "Golden Temple",
+  "images/golden1.jpg",
+  31.620125322777426,
+  74.87604977304188
+);
+
+const location41 = new City(
+  "41",
+  "Mohenjo-daro, Pakistan",
+  "images/mohenjo1.jpg",
+  27.325383198845703,
+  68.13371906811274
+);
+
+const location42 = new City(
+  "42",
+  "Kathmandu, Nepal",
+  "images/kathmandu1.jpg",
+  27.70622069604037,
+  85.33006612563244
+);
+
+const location43 = new City(
+  "43",
+  "Arunachal Pradesh",
+  "images/arunachal1.jpg",
+  28.26474221586793,
+  95.8667372909264
+);
+
+const location44 = new City(
+  "44",
+  "Maldives",
+  "images/male1.jpg",
+  1.965060412647633,
+  73.7856206704884
+);
+
+const location45 = new City(
+  "45",
+  "Male, Maldives",
+  "images/male2.jpg",
+  3.796457627480441,
+  73.20615156840684
+);
+
+const location46 = new City(
+  "46",
+  "Colombo",
+  "images/colombo1.jpg",
+  7.014237661559656,
+  79.86444974395752
+);
+
+const location47 = new City(
+  "47",
+  "Dhaka",
+  "images/dhaka1.jpg",
+  23.780492613020144,
+  90.39270704791545
+);
+
+const location48 = new City(
+  "48",
+  "Bhutan",
+  "images/Bhutan1.jpg",
+  27.550997935073294,
+  90.2070098319222
+);
+
+const location49 = new City(
+  "49",
+  "Ara",
+  "images/ara1.jpg",
+  25.548478021346966,
+  84.66137957972838
+);
+
+const location50 = new City(
+  "50",
+  "Gorakhnath Temple, Gorakhpur",
+  "images/gorakhnath1.jpg",
+  26.774073483691392,
+  83.35828315032673
 );
